@@ -19,17 +19,20 @@ function UnifiedQuiz() {
 
   useEffect(() => {
     const indexedQuestions = questions.map((q, i) => ({ ...q, id: `q-${i}` }));
+  
     const shuffledQuestions = shuffle(indexedQuestions);
     const matchOpts = {};
-  
-    shuffledQuestions.forEach(q => {
+    const randomizedQuestions = shuffledQuestions.map(q => {
       if (q.type === 'match') {
         const defs = q.pairs.map(p => p.definition);
         matchOpts[q.id] = shuffle([...defs]);
+      } else if (q.choices) {
+        q = { ...q, choices: shuffle([...q.choices]) };
       }
+      return q;
     });
   
-    setQuestionSet(shuffledQuestions);
+    setQuestionSet(randomizedQuestions);
     setMatchOptionsMap(matchOpts);
   }, []);
 
