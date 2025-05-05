@@ -15,9 +15,22 @@ function UnifiedQuiz() {
   const [showAnswersMap, setShowAnswersMap] = useState({});
   const [highlightCorrect, setHighlightCorrect] = useState(true);
   const [jumpTo, setJumpTo] = useState('');
+  const [matchOptionsMap, setMatchOptionsMap] = useState({});
 
   useEffect(() => {
-    setQuestionSet(shuffle([...questions]));
+    const indexedQuestions = questions.map((q, i) => ({ ...q, id: `q-${i}` }));
+    const shuffledQuestions = shuffle(indexedQuestions);
+    const matchOpts = {};
+  
+    shuffledQuestions.forEach(q => {
+      if (q.type === 'match') {
+        const defs = q.pairs.map(p => p.definition);
+        matchOpts[q.id] = shuffle([...defs]);
+      }
+    });
+  
+    setQuestionSet(shuffledQuestions);
+    setMatchOptionsMap(matchOpts);
   }, []);
 
   useEffect(() => {
@@ -88,9 +101,9 @@ function UnifiedQuiz() {
 
   const renderMatch = (q) => {
     const terms = q.pairs.map(p => p.term);
-    const definitions = q.pairs.map(p => p.definition);
+    const definitions = matchOptionsMap[q.id] || q.pairs.map(p => p.definition);
     const selections = responses[q.id] || [];
-
+  
     return (
       <div className="space-y-4">
         {terms.map((term, i) => {

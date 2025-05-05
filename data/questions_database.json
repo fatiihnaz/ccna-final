@@ -347,7 +347,7 @@
       "question": "Which two net commands are associated with network resource sharing? (Choose two.)",
       "type": "multiple",
       "choices": [
-        { "text": "net start", "correct": true },
+        { "text": "net start", "correct": false },
         { "text": "net accounts", "correct": false },
         { "text": "net share", "correct": true },
         { "text": "net use", "correct": true },
@@ -486,7 +486,8 @@
       "type": "multiple",
       "choices": [
         { "text": "It is a systematic and multilayered approach to cybersecurity.", "correct": true },
-        { "text": "It addresses the inventory and control of hardware and software configurations of systems.", "correct": true },
+        { "text": "It addresses the inventory and control of hardware and software configurations of systems.", "correct": false },
+        { "text": "It consists of a management framework through which an organization identifies, analyzes, and addresses information security risks.", "correct": true },
         { "text": "It consists of a set of practices that are systematically applied to ensure continuous improvement in information security.", "correct": true },
         { "text": "It involves the implementation of systems that track the location of devices and software across the enterprise.", "correct": false },
         { "text": "It is based on the application of servers and security devices.", "correct": false }
@@ -529,9 +530,9 @@
       "type": "single",
       "choices": [
         { "text": "The technician should remove all default firewall rules and selectively deny traffic from reaching the company network.", "correct": false },
-        { "text": "After implementing third party security software for the company, the technician should verify that the Windows Firewall is disabled.", "correct": false },
+        { "text": "After implementing third party security software for the company, the technician should verify that the Windows Firewall is disabled.", "correct": true },
         { "text": "The technician should create instructions for corporate users on how to allow an app through the Windows Firewall using the Administrator account.", "correct": false },
-        { "text": "The technician should enable the Windows Firewall for inbound traffic and install other firewall software for outbound traffic control.", "correct": true }
+        { "text": "The technician should enable the Windows Firewall for inbound traffic and install other firewall software for outbound traffic control.", "correct": false }
       ]
     },
     {
@@ -570,8 +571,8 @@
       "choices": [
         { "text": "echo reply", "correct": false },
         { "text": "unreachable", "correct": false },
-        { "text": "source quench", "correct": true },
-        { "text": "echo", "correct": false }
+        { "text": "source quench", "correct": false },
+        { "text": "echo", "correct": true }
       ]
     },
     {
@@ -623,11 +624,11 @@
       "choices": [
         { "text": "provides nonrepudiation using HMAC functions", "correct": false },
         { "text": "guarantees data has not changed in transit", "correct": true },
-        { "text": "provides data encryption", "correct": false },
+        { "text": "provides data encryption", "correct": true },
         { "text": "authenticates the source", "correct": true },
         { "text": "provides confidentiality of digitally signed data", "correct": false },
         { "text": "authenticates the destination", "correct": false },
-        { "text": "provides nonrepudiation of the transaction", "correct": true }
+        { "text": "provides nonrepudiation of the transaction", "correct": false }
       ]
     },
     {
@@ -1199,8 +1200,8 @@
       "choices": [
         { "text": "Ask the user to stop immediately and inform the user that this constitutes grounds for dismissal.", "correct": false },
         { "text": "Create a firewall rule blocking the respective website.", "correct": false },
-        { "text": "Revise the AUP immediately and get all users to sign the updated AUP.", "correct": false },
-        { "text": "Immediately suspend the network privileges of the user.", "correct": true }
+        { "text": "Revise the AUP immediately and get all users to sign the updated AUP.", "correct": true },
+        { "text": "Immediately suspend the network privileges of the user.", "correct": false }
       ]
     },
     {
@@ -1209,7 +1210,7 @@
       "choices": [
         { "text": "allowing data transfer between two network devices", "correct": false },
         { "text": "retrieving email messages", "correct": false },
-        { "text": "providing IP addresses to local hosts", "correct": true },
+        { "text": "providing IP addresses to local hosts", "correct": false },
         { "text": "forwarding name resolution requests between servers", "correct": true },
         { "text": "mapping name-to-IP addresses for internal hosts", "correct": true }
       ]
@@ -1345,7 +1346,7 @@
       "choices": [
         { "text": "HTTP", "correct": false },
         { "text": "POP", "correct": false },
-        { "text": "POP3", "correct": true },
+        { "text": "POP3", "correct": false },
         { "text": "DNS", "correct": true },
         { "text": "IMAP", "correct": false },
         { "text": "SMTP", "correct": true }
@@ -1471,8 +1472,8 @@
       "choices": [
         { "text": "data archiving", "correct": false },
         { "text": "data normalization", "correct": false },
-        { "text": "data reduction", "correct": false },
-        { "text": "data retention", "correct": true }
+        { "text": "data reduction", "correct": true },
+        { "text": "data retention", "correct": false }
       ]
     },
     {
@@ -1542,11 +1543,11 @@
       "question": "Which three statements describe a DHCP Discover message? (Choose three.)",
       "type": "multiple",
       "choices": [
-        { "text": "The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).", "correct": true },
+        { "text": "The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).", "correct": false },
         { "text": "The destination IP address is 255.255.255.255.", "correct": true },
         { "text": "The message comes from a server offering an IP address.", "correct": false },
         { "text": "The message comes from a client seeking an IP address.", "correct": true },
-        { "text": "All hosts receive the message, but only a DHCP server replies.", "correct": false },
+        { "text": "All hosts receive the message, but only a DHCP server replies.", "correct": true },
         { "text": "Only the DHCP server receives the message.", "correct": false }
       ]
     },
@@ -1647,10 +1648,10 @@
       "type": "single",
       "img": "/images/questa.jpg",
       "choices": [
-        { "text": "R1", "correct": false },
+        { "text": "R1", "correct": true },
         { "text": "PC2", "correct": false },
         { "text": "SW2", "correct": false },
-        { "text": "R2", "correct": true },
+        { "text": "R2", "correct": false },
         { "text": "SW1", "correct": false }
       ]
     },
