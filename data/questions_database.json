@@ -1,0 +1,2374 @@
+[   {
+      "question": "Which two statements are characteristics of a virus?",
+      "type": "multiple",
+      "choices": [
+        { "text": "A virus typically requires end-user activation.", "correct": true },
+        { "text": "A virus can be dormant and then activate at a specific time or date.", "correct": true },
+        { "text": "A virus replicates itself by independently exploiting vulnerabilities in networks.", "correct": false },
+        { "text": "A virus has an enabling vulnerability, a propagation mechanism, and a payload.", "correct": false },
+        { "text": "A virus provides the attacker with sensitive data, such as passwords.", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a characteristic of a Trojan horse as it relates to network security?",
+      "type": "single",
+      "choices": [
+        { "text": "Too much information is destined for a particular memory block, causing additional memory areas to be affected.", "correct": false },
+        { "text": "Extreme quantities of data are sent to a particular network device interface.", "correct": false },
+        { "text": "An electronic dictionary is used to obtain a password to be used to infiltrate a key network device.", "correct": false },
+        { "text": "Malware is contained in a seemingly legitimate executable program.", "correct": true }
+      ]
+    },
+    {
+      "question": "What technique is used in social engineering attacks?",
+      "type": "single",
+      "choices": [
+        { "text": "sending junk email", "correct": false },
+        { "text": "buffer overflow", "correct": false },
+        { "text": "phishing", "correct": true },
+        { "text": "man-in-the-middle", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a purpose of implementing VLANs on a network?",
+      "type": "single",
+      "choices": [
+        { "text": "They can separate user traffic.", "correct": true },
+        { "text": "They prevent Layer 2 loops.", "correct": false },
+        { "text": "They eliminate network collisions.", "correct": false },
+        { "text": "They allow switches to forward Layer 3 packets without a router.", "correct": false }
+      ]
+    },
+    {
+      "question": "Refer to the exhibit. A cybersecurity analyst is viewing packets forwarded by switch S2. What addresses will identify frames containing data sent from PCA to PCB?",
+      "type": "single",
+      "img": "/images/5Q.jpg",
+      "choices": [
+        { "text": "Src IP: 192.168.2.1 Src MAC: 00-60-0F-B1-33-33 Dst IP: 192.168.2.101 Dst MAC: 08-CB-8A-5C-BB-BB", "correct": false },
+        { "text": "Src IP: 192.168.1.212 Src MAC: 01-90-C0-E4-AA-AA Dst IP: 192.168.2.101 Dst MAC: 08-CB-8A-5C-BB-BB", "correct": false },
+        { "text": "Src IP: 192.168.1.212 Src MAC: 00-60-0F-B1-33-33 Dst IP: 192.168.2.101 Dst MAC: 08-CB-8A-5C-BB-BB", "correct": true },
+        { "text": "Src IP: 192.168.1.212 Src MAC: 00-60-0F-B1-33-33 Dst IP: 192.168.2.101 Dst MAC: 00-D0-D3-BE-00-00", "correct": false }
+      ]
+    },
+    {
+      "question": "A cybersecurity analyst needs to collect alert data. What are three detection tools to perform this task in the Security Onion architecture? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "CapME", "correct": true },
+        { "text": "Wazuh", "correct": true },
+        { "text": "Kibana", "correct": false },
+        { "text": "Zeek", "correct": true },
+        { "text": "Sguil", "correct": false },
+        { "text": "Wireshark", "correct": false }
+      ]
+    },
+    {
+      "question": "What technique is used to evaluate the risk posed by vulnerabilities to a specific organization including assessment of the likelihood of attacks and the impact of successful exploits?",
+      "type": "single",
+      "choices": [
+        { "text": "port scanning", "correct": false },
+        { "text": "risk analysis", "correct": true },
+        { "text": "penetration testing", "correct": false },
+        { "text": "vulnerability assessment", "correct": false }
+      ]
+    },
+    {
+      "question": "In addressing an identified risk, which strategy aims to shift some of the risk to other parties?",
+      "type": "single",
+      "choices": [
+        { "text": "risk avoidance", "correct": false },
+        { "text": "risk sharing", "correct": true },
+        { "text": "risk retention", "correct": false },
+        { "text": "risk reduction", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a network tap?",
+      "type": "single",
+      "choices": [
+        { "text": "a technology used to provide real-time reporting and long-term analysis of security events", "correct": false },
+        { "text": "a Cisco technology that provides statistics on packets flowing through a router or multilayer switch", "correct": false },
+        { "text": "a feature supported on Cisco switches that enables the switch to copy frames and forward them to an analysis device", "correct": false },
+        { "text": "a passive device that forwards all traffic and physical layer errors to an analysis device", "correct": true }
+      ]
+    },
+    {
+      "question": "If a SOC has a goal of 99.999% uptime, how many minutes of downtime a year would be considered within its goal?",
+      "type": "single",
+      "choices": [
+        { "text": "Approximately 5 minutes per year.", "correct": true },
+        { "text": "Approximately 10 minutes per year.", "correct": false },
+        { "text": "Approximately 20 minutes per year.", "correct": false },
+        { "text": "Approximately 30 minutes per year.", "correct": false }
+      ]
+    },
+    {
+      "question": "The HTTP server has responded to a client request with a 200 status code. What does this status code indicate?",
+      "type": "single",
+      "choices": [
+        { "text": "The request is understood by the server, but the resource will not be fulfilled.", "correct": false },
+        { "text": "The request was completed successfully.", "correct": true },
+        { "text": "The server could not find the requested resource, possibly because of an incorrect URL.", "correct": false },
+        { "text": "The request has been accepted for processing, but processing is not completed.", "correct": false }
+      ]
+    },
+    {
+      "question": "What debugging security tool can be used by black hats to reverse engineer binary files when writing exploits?",
+      "type": "single",
+      "choices": [
+        { "text": "WinDbg", "correct": true },
+        { "text": "Firesheep", "correct": false },
+        { "text": "Skipfish", "correct": false },
+        { "text": "AIDE", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two features of ARP? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "When a host is encapsulating a packet into a frame, it refers to the MAC address table to determine the mapping of IP addresses to MAC addresses.", "correct": false },
+        { "text": "If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast.", "correct": true },
+        { "text": "If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply.", "correct": true },
+        { "text": "If no device responds to the ARP request, then the originating node will broadcast the data packet to all devices on the network segment.", "correct": false },
+        { "text": "An ARP request is sent to all devices on the Ethernet LAN and contains the IP address of the destination host and the multicast MAC address.", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a property of the ARP table on a device?",
+      "type": "single",
+      "choices": [
+        { "text": "Entries in an ARP table are time-stamped and are purged after the timeout expires.", "correct": true },
+        { "text": "Every operating system uses the same timer to remove old entries from the ARP cache.", "correct": false },
+        { "text": "Static IP-to-MAC address entries are removed dynamically from the ARP table.", "correct": false },
+        { "text": "Windows operating systems store ARP cache entries for 3 minutes.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two network protocols can be used by a threat actor to exfiltrate data in traffic that is disguised as normal network traffic? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "NTP", "correct": false },
+        { "text": "DNS", "correct": true },
+        { "text": "HTTP", "correct": true },
+        { "text": "syslog", "correct": false },
+        { "text": "SMTP", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a key difference between the data captured by NetFlow and data captured by Wireshark?",
+      "type": "single",
+      "choices": [
+        { "text": "NetFlow data shows network flow contents whereas Wireshark data shows network flow statistics.", "correct": false },
+        { "text": "NetFlow data is analyzed by tcpdump whereas Wireshark data is analyzed by nfdump.", "correct": false },
+        { "text": "NetFlow provides transaction data whereas Wireshark provides session data.", "correct": false },
+        { "text": "NetFlow collects metadata from a network flow whereas Wireshark captures full data packets.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which method can be used to harden a device?",
+      "type": "single",
+      "choices": [
+        { "text": "maintain use of the same passwords", "correct": false },
+        { "text": "allow default services to remain enabled", "correct": false },
+        { "text": "allow USB auto-detection", "correct": false },
+        { "text": "use SSH and disable the root account access over SSH", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two features are included in RADIUS authentication? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "encryption for all communication", "correct": false },
+        { "text": "encryption for only the data", "correct": false },
+        { "text": "single process for authentication and authorization", "correct": true },
+        { "text": "separate processes for authentication and authorization", "correct": false },
+        { "text": "hidden passwords during transmission", "correct": true }
+      ]
+    },
+    {
+      "question": "Which tool captures full data packets with a command-line interface only?",
+      "type": "single",
+      "choices": [
+        { "text": "nfdump", "correct": false },
+        { "text": "Wireshark", "correct": false },
+        { "text": "NBAR2", "correct": false },
+        { "text": "tcpdump", "correct": true }
+      ]
+    },
+    {
+      "question": "In a Linux operating system, which component interprets user commands and attempts to execute them?",
+      "type": "single",
+      "choices": [
+        { "text": "GUI", "correct": false },
+        { "text": "daemon", "correct": false },
+        { "text": "kernel", "correct": false },
+        { "text": "shell", "correct": true }
+      ]
+    },
+    {
+      "question": "What is privilege escalation?",
+      "type": "single",
+      "choices": [
+        { "text": "Vulnerabilities in systems are exploited to grant higher levels of privilege than someone or some process should have.", "correct": true },
+        { "text": "Everyone is given full rights by default to everything and rights are taken away only when someone abuses privileges.", "correct": false },
+        { "text": "Someone is given rights because she or he has received a promotion.", "correct": false },
+        { "text": "A security problem occurs when high ranking corporate officials demand rights to systems or files that they should not have.", "correct": false }
+      ]
+    },
+    {
+      "question": "What two assurances does digital signing provide about code that is downloaded from the Internet? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "The code contains no viruses.", "correct": false },
+        { "text": "The code has not been modified since it left the software publisher.", "correct": true },
+        { "text": "The code is authentic and is actually sourced by the publisher.", "correct": true },
+        { "text": "The code contains no errors.", "correct": false },
+        { "text": "The code was encrypted with both a private and public key.", "correct": false }
+      ]
+    },
+    {
+      "question": "In which two cases might an organization use PKI applications to securely exchange information between users? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "HTTPS web service", "correct": true },
+        { "text": "802.1x authentication", "correct": true },
+        { "text": "local NTP server", "correct": false },
+        { "text": "FTP transfers", "correct": false },
+        { "text": "file and directory access permission", "correct": false }
+      ]
+    },
+    {
+      "question": "Which measure can a security analyst take to perform effective security monitoring against network traffic encrypted by SSL technology?",
+      "type": "single",
+      "choices": [
+        { "text": "Use a Syslog server to capture network traffic.", "correct": false },
+        { "text": "Deploy a Cisco SSL Appliance.", "correct": true },
+        { "text": "Require remote access connections through IPsec VPN.", "correct": false },
+        { "text": "Deploy a Cisco ASA.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three objectives must a BYOD security policy address? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "All devices must be insured against liability if used to compromise the corporate network.", "correct": false },
+        { "text": "All devices must have open authentication with the corporate network.", "correct": false },
+        { "text": "Rights and activities permitted on the corporate network must be defined.", "correct": true },
+        { "text": "Safeguards must be put in place for any personal device being compromised.", "correct": true },
+        { "text": "The level of access of employees when connecting to the corporate network must be defined.", "correct": true },
+        { "text": "All devices should be allowed to attach to the corporate network flawlessly.", "correct": false }
+      ]
+    },
+    {
+      "question": "What is an advantage for small organizations of adopting IMAP instead of POP?",
+      "type": "single",
+      "choices": [
+        { "text": "POP only allows the client to store messages in a centralized way, while IMAP allows distributed storage.", "correct": false },
+        { "text": "IMAP sends and retrieves email, but POP only retrieves email.", "correct": false },
+        { "text": "When the user connects to a POP server, copies of the messages are kept in the mail server for a short time, but IMAP keeps them for a long time.", "correct": false },
+        { "text": "Messages are kept in the mail servers until they are manually deleted from the email client.", "correct": true }
+      ]
+    },
+    {
+      "question": "What is the purpose of Tor?",
+      "type": "single",
+      "choices": [
+        { "text": "to allow users to browse the Internet anonymously", "correct": true },
+        { "text": "to securely connect to a remote network over an unsecure link such as an Internet connection", "correct": false },
+        { "text": "to donate processor cycles to distributed computational tasks in a processor sharing P2P network", "correct": false },
+        { "text": "to inspect incoming traffic and look for any that violates a rule or matches the signature of a known exploit", "correct": false }
+      ]
+    },
+    {
+      "question": "Which core open source component of the Elastic-stack is responsible for accepting the data in its native format and making elements of the data consistent across all sources?",
+      "type": "single",
+      "choices": [
+        { "text": "Logstash", "correct": true },
+        { "text": "Kibana", "correct": false },
+        { "text": "Beats", "correct": false },
+        { "text": "Elasticsearch", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two types of unreadable network traffic could be eliminated from data collected by NSM? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "STP traffic", "correct": false },
+        { "text": "IPsec traffic", "correct": true },
+        { "text": "routing updates traffic", "correct": false },
+        { "text": "SSL traffic", "correct": true },
+        { "text": "broadcast traffic", "correct": false }
+      ]
+    },
+    {
+      "question": "In the NIST incident response process life cycle, which type of attack vector involves the use of brute force against devices, networks, or services?",
+      "type": "single",
+      "choices": [
+        { "text": "media", "correct": false },
+        { "text": "impersonation", "correct": false },
+        { "text": "attrition", "correct": true },
+        { "text": "loss or theft", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a characteristic of CybOX?",
+      "type": "single",
+      "choices": [
+        { "text": "It is a set of standardized schemata for specifying, capturing, characterizing, and communicating events and properties of network operations.", "correct": true },
+        { "text": "It enables the real-time exchange of cyberthreat indicators between the U.S. Federal Government and the private sector.", "correct": false },
+        { "text": "It is a set of specifications for exchanging cyberthreat information between organizations.", "correct": false },
+        { "text": "It is the specification for an application layer protocol that allows the communication of CTI over HTTPS.", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two ways that ICMP can be a security threat to a company? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "by collecting information about a network", "correct": true },
+        { "text": "by corrupting data between email servers and email recipients", "correct": false },
+        { "text": "by the infiltration of web pages", "correct": false },
+        { "text": "by corrupting network IP data packets", "correct": false },
+        { "text": "by providing a conduit for DoS attacks", "correct": true }
+      ]
+    },
+    {
+      "question": "Which three IPv4 header fields have no equivalent in an IPv6 header? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "fragment offset", "correct": true },
+        { "text": "protocol", "correct": false },
+        { "text": "flag", "correct": true },
+        { "text": "TTL", "correct": false },
+        { "text": "identification", "correct": true },
+        { "text": "version", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two net commands are associated with network resource sharing? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "net start", "correct": true },
+        { "text": "net accounts", "correct": false },
+        { "text": "net share", "correct": true },
+        { "text": "net use", "correct": true },
+        { "text": "net stop", "correct": false }
+      ]
+    },
+    {
+      "question": "Which PDU format is used when bits are received from the network medium by the NIC of a host?",
+      "type": "single",
+      "choices": [
+        { "text": "segment", "correct": false },
+        { "text": "file", "correct": false },
+        { "text": "packet", "correct": false },
+        { "text": "frame", "correct": true }
+      ]
+    },
+    {
+      "question": "A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",
+      "type": "single",
+      "choices": [
+        { "text": "when the router receives an ICMP Time Exceeded message", "correct": false },
+        { "text": "when the values of both the Echo Request and Echo Reply messages reach zero", "correct": false },
+        { "text": "when the RTT value reaches zero", "correct": false },
+        { "text": "when the value in the TTL field reaches zero", "correct": true },
+        { "text": "when the host responds with an ICMP Echo Reply message", "correct": false }
+      ]
+    },
+    {
+      "question": "What solution can provide a VPN between site A and site B to support encapsulation of any Layer 3 protocol between the internal networks at each site?",
+      "type": "single",
+      "img": "/images/Q54CyberOps-Associate.jpg",
+      "choices": [
+        { "text": "an IPsec tunnel", "correct": false },
+        { "text": "Cisco SSL VPN", "correct": false },
+        { "text": "a GRE tunnel", "correct": true },
+        { "text": "a remote access tunnel", "correct": false }
+      ]
+    },
+    {
+      "question": "For what purpose would a network administrator use the Nmap tool?",
+      "type": "single",
+      "choices": [
+        { "text": "protection of the private IP addresses of internal hosts", "correct": false },
+        { "text": "identification of specific network anomalies", "correct": false },
+        { "text": "collection and analysis of security alerts and logs", "correct": false },
+        { "text": "detection and identification of open ports", "correct": true }
+      ]
+    },
+    {
+      "question": "What network attack seeks to create a DoS for clients by preventing them from being able to obtain a DHCP lease?",
+      "type": "single",
+      "choices": [
+        { "text": "DHCP starvation", "correct": true },
+        { "text": "IP address spoofing", "correct": false },
+        { "text": "DHCP spoofing", "correct": false },
+        { "text": "CAM table attack", "correct": false }
+      ]
+    },
+    {
+      "question": "If Host1 were to transfer a file to the server, what layers of the TCP/IP model would be used?",
+      "type": "single",
+      "img": "/images/i275370v1n1_275370-2.webp",
+      "choices": [
+        { "text": "only application and Internet layers", "correct": false },
+        { "text": "application, transport, Internet, and network access layers", "correct": true },
+        { "text": "only Internet and network access layers", "correct": false },
+        { "text": "only application, transport, network, data link, and physical layers", "correct": false },
+        { "text": "only application, Internet, and network access layers", "correct": false },
+        { "text": "application, session, transport, network, data link, and physical layers", "correct": false }
+      ]
+    },
+    {
+      "question": "Which component is addressed in the AAA network service framework when a network security policy specifies access rights?",
+      "type": "single",
+      "choices": [
+        { "text": "automation", "correct": false },
+        { "text": "authentication", "correct": false },
+        { "text": "authorization", "correct": true },
+        { "text": "accounting", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the first step a wireless client will do in order to communicate over the network using a wireless management frame?",
+      "type": "single",
+      "choices": [
+        { "text": "associate with the AP", "correct": false },
+        { "text": "authenticate to the AP", "correct": false },
+        { "text": "discover the AP", "correct": true },
+        { "text": "agree with the AP on the payload", "correct": false }
+      ]
+    },
+    {
+      "question": "A device has been assigned the IPv6 address of 2001:0db8:cafe:4500:1000:00d8:0058:00ab/64. Which is the network identifier of the device?",
+      "type": "single",
+      "choices": [
+        { "text": "2001:0db8:cafe:4500:1000", "correct": false },
+        { "text": "2001:0db8:cafe:4500:1000:00d8:0058:00ab", "correct": false },
+        { "text": "1000:00d8:0058:00ab", "correct": false },
+        { "text": "2001:0db8:cafe:4500", "correct": true },
+        { "text": "2001", "correct": false }
+      ]
+    },
+    {
+      "question": "An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?",
+      "type": "single",
+      "choices": [
+        { "text": "subnetwork 192.168.1.64, subnet mask 255.255.255.192", "correct": true },
+        { "text": "subnetwork 192.168.1.64, subnet mask 255.255.255.240", "correct": false },
+        { "text": "subnetwork 192.168.1.32, subnet mask 255.255.255.240", "correct": false },
+        { "text": "subnetwork 192.168.1.128, subnet mask 255.255.255.192", "correct": false },
+        { "text": "subnetwork 192.168.1.8, subnet mask 255.255.255.224", "correct": false }
+      ]
+    },
+    {
+      "question": "What term describes a set of software tools designed to increase the privileges of a user or to grant access to the user to portions of the operating system that should not normally be allowed?",
+      "type": "single",
+      "choices": [
+        { "text": "compiler", "correct": false },
+        { "text": "rootkit", "correct": true },
+        { "text": "package manager", "correct": false },
+        { "text": "penetration testing", "correct": false }
+      ]
+    },
+    {
+      "question": "Which risk management strategy method is being used when implementing a patch management system on a vulnerable server?",
+      "type": "single",
+      "choices": [
+        { "text": "risk sharing", "correct": false },
+        { "text": "risk avoidance", "correct": false },
+        { "text": "risk reduction", "correct": true },
+        { "text": "risk retention", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three characteristics are true of an information security management system? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "It is a systematic and multilayered approach to cybersecurity.", "correct": true },
+        { "text": "It addresses the inventory and control of hardware and software configurations of systems.", "correct": true },
+        { "text": "It consists of a set of practices that are systematically applied to ensure continuous improvement in information security.", "correct": true },
+        { "text": "It involves the implementation of systems that track the location of devices and software across the enterprise.", "correct": false },
+        { "text": "It is based on the application of servers and security devices.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three technologies should be included in a SOC security information and event management system? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "event collection, correlation, and analysis", "correct": true },
+        { "text": "security monitoring", "correct": true },
+        { "text": "user authentication", "correct": false },
+        { "text": "proxy service", "correct": false },
+        { "text": "intrusion prevention", "correct": false },
+        { "text": "threat intelligence", "correct": true }
+      ]
+    },
+    {
+      "question": "What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?",
+      "type": "single",
+      "choices": [
+        { "text": "http", "correct": false },
+        { "text": "www", "correct": false },
+        { "text": ".com", "correct": true },
+        { "text": "index", "correct": false }
+      ]
+    },
+    {
+      "question": "What best describes the security threat of spoofing?",
+      "type": "single",
+      "choices": [
+        { "text": "sending bulk email to individuals, lists, or domains with the intention to prevent users from accessing email", "correct": false },
+        { "text": "sending abnormally large amounts of data to a remote server to prevent user access to the server services", "correct": false },
+        { "text": "intercepting traffic between two hosts or inserting false information into traffic between two hosts", "correct": false },
+        { "text": "making data appear to come from a source that is not the actual source", "correct": true }
+      ]
+    },
+    {
+      "question": "What is a best practice that the technician should implement when configuring the Windows Firewall?",
+      "type": "single",
+      "choices": [
+        { "text": "The technician should remove all default firewall rules and selectively deny traffic from reaching the company network.", "correct": false },
+        { "text": "After implementing third party security software for the company, the technician should verify that the Windows Firewall is disabled.", "correct": false },
+        { "text": "The technician should create instructions for corporate users on how to allow an app through the Windows Firewall using the Administrator account.", "correct": false },
+        { "text": "The technician should enable the Windows Firewall for inbound traffic and install other firewall software for outbound traffic control.", "correct": true }
+      ]
+    },
+    {
+      "question": "What defines the difference between session data and transaction data in logs?",
+      "type": "single",
+      "choices": [
+        { "text": "Session data analyzes network traffic and predicts network behavior, whereas transaction data records network sessions.", "correct": false },
+        { "text": "Session data is used to make predictions on network behaviors, whereas transaction data is used to detect network anomalies.", "correct": false },
+        { "text": "Session data records a conversation between hosts, whereas transaction data focuses on the result of network sessions.", "correct": true },
+        { "text": "Session data shows the result of a network session, whereas transaction data is in response to network threat traffic.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which device supports the use of SPAN to enable monitoring of malicious activity?",
+      "type": "single",
+      "choices": [
+        { "text": "Cisco Catalyst switch", "correct": true },
+        { "text": "Cisco IronPort", "correct": false },
+        { "text": "Cisco NAC", "correct": false },
+        { "text": "Cisco Security Agent", "correct": false }
+      ]
+    },
+    {
+      "question": "Which term is used for describing automated queries that are useful for adding efficiency to the cyberoperations workflow?",
+      "type": "single",
+      "choices": [
+        { "text": "cyber kill chain", "correct": false },
+        { "text": "playbook", "correct": true },
+        { "text": "chain of custody", "correct": false },
+        { "text": "rootkit", "correct": false }
+      ]
+    },
+    {
+      "question": "When ACLs are configured to block IP address spoofing and DoS flood attacks, which ICMP message should be allowed both inbound and outbound?",
+      "type": "single",
+      "choices": [
+        { "text": "echo reply", "correct": false },
+        { "text": "unreachable", "correct": false },
+        { "text": "source quench", "correct": true },
+        { "text": "echo", "correct": false }
+      ]
+    },
+    {
+      "question": "After a security monitoring tool identifies a malware attachment entering the network, what is the benefit of performing a retrospective analysis?",
+      "type": "single",
+      "choices": [
+        { "text": "It can identify how the malware originally entered the network.", "correct": false },
+        { "text": "A retrospective analysis can help in tracking the behavior of the malware from the identification point forward.", "correct": true },
+        { "text": "It can calculate the probability of a future incident.", "correct": false },
+        { "text": "It can determine which network host was first affected.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two data types would be classified as personally identifiable information (PII)? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "house thermostat reading", "correct": false },
+        { "text": "average number of cattle per region", "correct": false },
+        { "text": "vehicle identification number", "correct": true },
+        { "text": "hospital emergency use per region", "correct": false },
+        { "text": "Facebook photographs", "correct": true }
+      ]
+    },
+    {
+      "question": "A help desk technician believes that botnets are causing performance issues on computers. What are two purposes of botnets? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "to transmit viruses or spam to computers on the same network", "correct": true },
+        { "text": "to record any and all keystrokes", "correct": false },
+        { "text": "to attack other computers", "correct": true },
+        { "text": "to withhold access to a computer or files until money has been paid", "correct": false },
+        { "text": "to gain access to the restricted part of the operating system", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two statements describe the use of asymmetric algorithms? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Public and private keys may be used interchangeably.", "correct": false },
+        { "text": "If a public key is used to encrypt the data, a private key must be used to decrypt the data.", "correct": true },
+        { "text": "If a public key is used to encrypt the data, a public key must be used to decrypt the data.", "correct": false },
+        { "text": "If a private key is used to encrypt the data, a public key must be used to decrypt the data.", "correct": true },
+        { "text": "If a private key is used to encrypt the data, a private key must be used to decrypt the data.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three security services are provided by digital signatures? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "provides nonrepudiation using HMAC functions", "correct": false },
+        { "text": "guarantees data has not changed in transit", "correct": true },
+        { "text": "provides data encryption", "correct": false },
+        { "text": "authenticates the source", "correct": true },
+        { "text": "provides confidentiality of digitally signed data", "correct": false },
+        { "text": "authenticates the destination", "correct": false },
+        { "text": "provides nonrepudiation of the transaction", "correct": true }
+      ]
+    },
+    {
+      "question": "What are two methods to maintain certificate revocation status? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "CRL", "correct": true },
+        { "text": "DNS", "correct": false },
+        { "text": "subordinate CA", "correct": false },
+        { "text": "OCSP", "correct": true },
+        { "text": "LDAP", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two uses of an access control list? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "ACLs provide a basic level of security for network access.", "correct": true },
+        { "text": "ACLs can control which areas a host can access on a network.", "correct": true },
+        { "text": "Standard ACLs can restrict access to specific applications and ports.", "correct": false },
+        { "text": "ACLs assist the router in determining the best path to a destination.", "correct": false },
+        { "text": "ACLs can permit or deny traffic based upon the MAC address originating on the router.", "correct": false }
+      ]
+    },
+    {
+      "question": "A client is using SLAAC to obtain an IPv6 address. What must the client do before using this IPv6 address?",
+      "type": "single",
+      "choices": [
+        { "text": "Send an ICMPv6 Router Solicitation message to determine the default gateway.", "correct": false },
+        { "text": "Send an ICMPv6 Router Solicitation message to request the DNS server address.", "correct": false },
+        { "text": "Send an ICMPv6 Neighbor Solicitation message to ensure the address is not already in use.", "correct": true },
+        { "text": "Wait for an ICMPv6 Router Advertisement message giving permission to use the address.", "correct": false }
+      ]
+    },
+    {
+      "question": "A technician is troubleshooting a network issue. Pings to the local router succeed, but pings to a server on the Internet fail. Which CLI command could help identify where the issue lies?",
+      "type": "single",
+      "choices": [
+        { "text": "tracert", "correct": true },
+        { "text": "ipconfig", "correct": false },
+        { "text": "msconfig", "correct": false },
+        { "text": "ipconfig /renew", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two evasion techniques that are used by hackers? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Trojan horse", "correct": false },
+        { "text": "pivot", "correct": true },
+        { "text": "rootkit", "correct": true },
+        { "text": "reconnaissance", "correct": false },
+        { "text": "phishing", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two approaches should security professionals take during the Actions on Objectives step in the Cyber Kill Chain model? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Perform forensic analysis of endpoints for rapid triage.", "correct": true },
+        { "text": "Train web developers for securing code.", "correct": false },
+        { "text": "Build detections for the behavior of known malware.", "correct": false },
+        { "text": "Collect malware files and metadata for future analysis.", "correct": false },
+        { "text": "Detect data exfiltration, lateral movement, and unauthorized credential usage.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which field in the TCP header indicates the status of the three-way handshake process?",
+      "type": "single",
+      "choices": [
+        { "text": "control bits", "correct": true },
+        { "text": "window", "correct": false },
+        { "text": "reserved", "correct": false },
+        { "text": "checksum", "correct": false }
+      ]
+    },
+    {
+      "question": "A user opens three browsers on the same PC to access www.cisco.com to search for certification course information. The Cisco web server sends a datagram as a reply to the request from one of the web browsers. Which information is used by the TCP/IP protocol stack in the PC to identify which of the three web browsers should receive the reply?",
+      "type": "single",
+      "choices": [
+        { "text": "the source IP address", "correct": false },
+        { "text": "the destination port number", "correct": true },
+        { "text": "the destination IP address", "correct": false },
+        { "text": "the source port number", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two scenarios where probabilistic security analysis is best suited? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "when applications that conform to application/networking standards are analyzed", "correct": false },
+        { "text": "when random variables create difficulty in knowing with certainty the outcome of any given event", "correct": true },
+        { "text": "when each event is the inevitable result of antecedent causes", "correct": false },
+        { "text": "when analyzing applications designed to circumvent firewalls", "correct": true },
+        { "text": "when analyzing events with the assumption that they follow predefined steps", "correct": false }
+      ]
+    },
+    {
+      "question": "Which tool is a web application that provides the cybersecurity analyst an easy-to-read means of viewing an entire Layer 4 session?",
+      "type": "single",
+      "choices": [
+        { "text": "Snort", "correct": false },
+        { "text": "Zeek", "correct": false },
+        { "text": "CapME", "correct": true },
+        { "text": "OSSEC", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two characteristics of the SLAAC method for IPv6 address configuration? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "The default gateway of an IPv6 client on a LAN will be the link-local address of the router interface attached to the LAN.", "correct": true },
+        { "text": "This stateful method of acquiring an IPv6 address requires at least one DHCPv6 server.", "correct": false },
+        { "text": "Clients send router advertisement messages to routers to request IPv6 addressing.", "correct": false },
+        { "text": "IPv6 addressing is dynamically assigned to clients through the use of ICMPv6.", "correct": true },
+        { "text": "Router solicitation messages are sent by the router to offer IPv6 addressing to clients.", "correct": false }
+      ]
+    },
+    {
+      "question": "A technician notices that an application is not responding to commands and that the computer seems to respond slowly when applications are opened. What is the best administrative tool to force the release of system resources from the unresponsive application?",
+      "type": "single",
+      "choices": [
+        { "text": "Event Viewer", "correct": false },
+        { "text": "System Restore", "correct": false },
+        { "text": "Add or Remove Programs", "correct": false },
+        { "text": "Task Manager", "correct": true }
+      ]
+    },
+    {
+      "question": "How can statistical data be used to describe or predict network behavior?",
+      "type": "single",
+      "choices": [
+        { "text": "by comparing normal network behavior to current network behavior", "correct": true },
+        { "text": "by recording conversations between network endpoints", "correct": false },
+        { "text": "by listing results of user web surfing activities", "correct": false },
+        { "text": "by displaying alert messages that are generated by Snort", "correct": false }
+      ]
+    },
+    {
+      "question": "Which metric in the CVSS Base Metric Group is used with an attack vector?",
+      "type": "single",
+      "choices": [
+        { "text": "the proximity of the threat actor to the vulnerability", "correct": true },
+        { "text": "the presence or absence of the requirement for user interaction in order for an exploit to be successful", "correct": false },
+        { "text": "the determination whether the initial authority changes to a second authority during the exploit", "correct": false },
+        { "text": "the number of components, software, hardware, or networks, that are beyond the control of the attacker and that must be present in order for a vulnerability to be successfully exploited", "correct": false }
+      ]
+    },
+    {
+      "question": "Which NIST Cybersecurity Framework core function is concerned with the development and implementation of safeguards that ensure the delivery of critical infrastructure services?",
+      "type": "single",
+      "choices": [
+        { "text": "respond", "correct": false },
+        { "text": "detect", "correct": false },
+        { "text": "identify", "correct": false },
+        { "text": "recover", "correct": false },
+        { "text": "protect", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two techniques are used in a smurf attack? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "session hijacking", "correct": false },
+        { "text": "resource exhaustion", "correct": false },
+        { "text": "botnets", "correct": false },
+        { "text": "amplification", "correct": true },
+        { "text": "reflection", "correct": true }
+      ]
+    },
+    {
+      "question": "What is the primary objective of a threat intelligence platform (TIP)?",
+      "type": "single",
+      "choices": [
+        { "text": "to aggregate the data in one place and present it in a comprehensible and usable format", "correct": true },
+        { "text": "to provide a specification for an application layer protocol that allows the communication of CTI over HTTPS", "correct": false },
+        { "text": "to provide a standardized schema for specifying, capturing, characterizing, and communicating events and properties of network operations", "correct": false },
+        { "text": "to provide a security operations platform that integrates and enhances diverse security tools and threat intelligence", "correct": false }
+      ]
+    },
+    {
+      "question": "Which wireless parameter is used by an access point to broadcast frames that include the SSID?",
+      "type": "single",
+      "choices": [
+        { "text": "security mode", "correct": false },
+        { "text": "active mode", "correct": false },
+        { "text": "passive mode", "correct": true },
+        { "text": "channel setting", "correct": false }
+      ]
+    },
+    {
+      "question": "An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?",
+      "type": "single",
+      "choices": [
+        { "text": "rogue access point", "correct": true },
+        { "text": "cracking", "correct": false },
+        { "text": "denial of service", "correct": false },
+        { "text": "spoofing", "correct": false }
+      ]
+    },
+    {
+      "question": "What information is required for a WHOIS query?",
+      "type": "single",
+      "choices": [
+        { "text": "outside global address of the client", "correct": false },
+        { "text": "ICANN lookup server address", "correct": false },
+        { "text": "link-local address of the domain owner", "correct": false },
+        { "text": "FQDN of the domain", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two statements describe the characteristics of symmetric algorithms? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "They are referred to as a pre-shared key or secret key.", "correct": true },
+        { "text": "They use a pair of a public key and a private key.", "correct": false },
+        { "text": "They are commonly used with VPN traffic.", "correct": true },
+        { "text": "They provide confidentiality, integrity, and availability.", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two drawbacks to using HIPS? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "With HIPS, the success or failure of an attack cannot be readily determined.", "correct": false },
+        { "text": "With HIPS, the network administrator must verify support for all the different operating systems used in the network.", "correct": true },
+        { "text": "HIPS has difficulty constructing an accurate network picture or coordinating events that occur across the entire network.", "correct": true },
+        { "text": "If the network traffic stream is encrypted, HIPS is unable to access unencrypted forms of the traffic.", "correct": false },
+        { "text": "HIPS installations are never vulnerable to fragmentation attacks.", "correct": false }
+      ]
+    },
+    {
+      "question": "What are three functions provided by the syslog service? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "to select the type of logging information that is captured", "correct": true },
+        { "text": "to periodically poll agents for data", "correct": false },
+        { "text": "to provide statistics on packets that are flowing through a Cisco device", "correct": false },
+        { "text": "to provide traffic analysis", "correct": false },
+        { "text": "to gather logging information for monitoring and troubleshooting", "correct": true },
+        { "text": "to specify the destinations of captured messages", "correct": true }
+      ]
+    },
+    {
+      "question": "Which consideration is important when implementing syslog in a network?",
+      "type": "single",
+      "choices": [
+        { "text": "Enable the highest level of syslog available to ensure logging of all possible event messages.", "correct": false },
+        { "text": "Synchronize clocks on all network devices with a protocol such as Network Time Protocol.", "correct": true },
+        { "text": "Log all messages to the system buffer so that they can be displayed when accessing the router.", "correct": false },
+        { "text": "Use SSH to access syslog information", "correct": false }
+      ]
+    },
+    {
+      "question": "What are the two ways threat actors use NTP? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "They place an attachment inside an email message.", "correct": false },
+        { "text": "They attack the NTP infrastructure in order to corrupt the information used to log the attack.", "correct": true },
+        { "text": "They place iFrames on a frequently used corporate web page.", "correct": false },
+        { "text": "They encode stolen data as the subdomain portion where the nameserver is under control of an attacker.", "correct": false },
+        { "text": "Threat actors use NTP systems to direct DDoS attacks.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two features are included by both TACACS+ and RADIUS protocols? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "password encryption", "correct": true },
+        { "text": "separate authentication and authorization processes", "correct": false },
+        { "text": "SIP support", "correct": false },
+        { "text": "utilization of transport layer protocols", "correct": true },
+        { "text": "802.1X support", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two types of attacks used on DNS open resolvers? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "amplification and reflection", "correct": true },
+        { "text": "fast flux", "correct": false },
+        { "text": "ARP poisoning", "correct": false },
+        { "text": "resource utilization", "correct": true },
+        { "text": "cushioning", "correct": false }
+      ]
+    },
+    {
+      "question": "What are three goals of a port scan attack? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "to identify peripheral configurations", "correct": false },
+        { "text": "to determine potential vulnerabilities", "correct": true },
+        { "text": "to disable used ports and services", "correct": false },
+        { "text": "to identify operating systems", "correct": true },
+        { "text": "to identify active services", "correct": true },
+        { "text": "to discover system passwords", "correct": false }
+      ]
+    },
+    {
+      "question": "Which protocol or service uses UDP for a client-to-server communication and TCP for server-to-server communication?",
+      "type": "single",
+      "choices": [
+        { "text": "HTTP", "correct": false },
+        { "text": "FTP", "correct": false },
+        { "text": "DNS", "correct": true },
+        { "text": "SMTP", "correct": false }
+      ]
+    },
+    {
+      "question": "What is one difference between the client-server and peer-to-peer network models?",
+      "type": "single",
+      "choices": [
+        { "text": "Only in the client-server model can file transfers occur.", "correct": false },
+        { "text": "A data transfer that uses a device serving in a client role requires that a dedicated server be present.", "correct": false },
+        { "text": "A peer-to-peer network transfers data faster than a transfer using a client-server network.", "correct": false },
+        { "text": "Every device in a peer-to-peer network can function as a client or a server.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which statement is correct about network protocols?",
+      "type": "single",
+      "choices": [
+        { "text": "They define how messages are exchanged between the source and the destination.", "correct": true },
+        { "text": "They all function in the network access layer of TCP/IP.", "correct": false },
+        { "text": "They are only required for exchange of messages between devices on remote networks.", "correct": false },
+        { "text": "Network protocols define the type of hardware that is used and how it is mounted in racks.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which approach can help block potential malware delivery methods, as described in the Cyber Kill Chain model, on an Internet-faced web server?",
+      "type": "single",
+      "choices": [
+        { "text": "Build detections for the behavior of known malware.", "correct": false },
+        { "text": "Collect malware files and metadata for future analysis.", "correct": false },
+        { "text": "Audit the web server to forensically determine the origin of exploit.", "correct": false },
+        { "text": "Analyze the infrastructure storage path used for files.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which meta-feature element in the Diamond Model classifies the general type of intrusion event?",
+      "type": "single",
+      "choices": [
+        { "text": "phase", "correct": false },
+        { "text": "results", "correct": false },
+        { "text": "methodology", "correct": true },
+        { "text": "direction", "correct": false }
+      ]
+    },
+    {
+      "question": "Which Linux command is used to manage processes?",
+      "type": "single",
+      "choices": [
+        { "text": "chrootkit", "correct": false },
+        { "text": "ls", "correct": false },
+        { "text": "grep", "correct": false },
+        { "text": "kill", "correct": true }
+      ]
+    },
+    {
+      "question": "Which tool can be used in a Cisco AVC system to analyze and present the application analysis data into dashboard reports?",
+      "type": "single",
+      "choices": [
+        { "text": "NetFlow", "correct": false },
+        { "text": "NBAR2", "correct": false },
+        { "text": "Prime", "correct": true },
+        { "text": "IPFIX", "correct": false }
+      ]
+    },
+    {
+      "question": "Which Windows Event Viewer log includes events regarding the operation of drivers, processes, and hardware?",
+      "type": "single",
+      "choices": [
+        { "text": "system logs", "correct": true },
+        { "text": "application logs", "correct": false },
+        { "text": "security logs", "correct": false },
+        { "text": "setup logs", "correct": false }
+      ]
+    },
+    {
+      "question": "Which method is used to make data unreadable to unauthorized users?",
+      "type": "single",
+      "choices": [
+        { "text": "Encrypt the data.", "correct": true },
+        { "text": "Fragment the data.", "correct": false },
+        { "text": "Add a checksum to the end of the data.", "correct": false },
+        { "text": "Assign it a username and password.", "correct": false }
+      ]
+    },
+    {
+      "question": "For network systems, which management system addresses the inventory and control of hardware and software configurations?",
+      "type": "single",
+      "choices": [
+        { "text": "asset management", "correct": false },
+        { "text": "vulnerability management", "correct": false },
+        { "text": "risk management", "correct": false },
+        { "text": "configuration management", "correct": true }
+      ]
+    },
+    {
+      "question": "What are the three core functions provided by the Security Onion? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "business continuity planning", "correct": false },
+        { "text": "full packet capture", "correct": true },
+        { "text": "alert analysis", "correct": true },
+        { "text": "intrusion detection", "correct": true },
+        { "text": "security device management", "correct": false },
+        { "text": "threat containment", "correct": false }
+      ]
+    },
+    {
+      "question": "In NAT terms, what address type refers to the globally routable IPv4 address of a destination host on the Internet?",
+      "type": "single",
+      "choices": [
+        { "text": "outside global", "correct": true },
+        { "text": "inside global", "correct": false },
+        { "text": "outside local", "correct": false },
+        { "text": "inside local", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two fields or features does Ethernet examine to determine if a received frame is passed to the data link layer or discarded by the NIC? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "CEF", "correct": false },
+        { "text": "source MAC address", "correct": false },
+        { "text": "minimum frame size", "correct": true },
+        { "text": "auto-MDIX", "correct": false },
+        { "text": "Frame Check Sequence", "correct": true }
+      ]
+    },
+    {
+      "question": "Which type of data would be considered an example of volatile data?",
+      "type": "single",
+      "choices": [
+        { "text": "web browser cache", "correct": false },
+        { "text": "memory registers", "correct": true },
+        { "text": "log files", "correct": false },
+        { "text": "temp files", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the main purpose of exploitations by a threat actor through the weapon delivered to a target during the Cyber Kill Chain exploitation phase?",
+      "type": "single",
+      "choices": [
+        { "text": "Launch a DoS attack.", "correct": false },
+        { "text": "Send a message back to a CnC controlled by the threat actor.", "correct": false },
+        { "text": "Break the vulnerability and gain control of the target.", "correct": true },
+        { "text": "Establish a back door into the system.", "correct": false }
+      ]
+    },
+    {
+      "question": "What three security tools does Cisco Talos maintain security incident detection rule sets for? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Snort", "correct": true },
+        { "text": "NetStumbler", "correct": false },
+        { "text": "Socat", "correct": false },
+        { "text": "SpamCop", "correct": true },
+        { "text": "ClamAV", "correct": true }
+      ]
+    },
+    {
+      "question": "Which host-based firewall uses a three-profile approach to configure the firewall functionality?",
+      "type": "single",
+      "choices": [
+        { "text": "Windows Firewall", "correct": true },
+        { "text": "iptables", "correct": false },
+        { "text": "TCP Wrapper", "correct": false },
+        { "text": "nftables", "correct": false }
+      ]
+    },
+    {
+      "question": "When a user visits an online store website that uses HTTPS, the user browser queries the CA for a CRL. What is the purpose of this query?",
+      "type": "single",
+      "choices": [
+        { "text": "to verify the validity of the digital certificate", "correct": true },
+        { "text": "to request the CA self-signed digital certificate", "correct": false },
+        { "text": "to check the length of key used for the digital certificate", "correct": false },
+        { "text": "to negotiate the best encryption to use", "correct": false }
+      ]
+    },
+    {
+      "question": "Which step in the Vulnerability Management Life Cycle determines a baseline risk profile to eliminate risks based on asset criticality, vulnerability threat, and asset classification?",
+      "type": "single",
+      "choices": [
+        { "text": "discover", "correct": false },
+        { "text": "assess", "correct": true },
+        { "text": "prioritize assets", "correct": false },
+        { "text": "verify", "correct": false }
+      ]
+    },
+    {
+      "question": "Which management system implements systems that track the location and configuration of networked devices and software across an enterprise?",
+      "type": "single",
+      "choices": [
+        { "text": "asset management", "correct": true },
+        { "text": "vulnerability management", "correct": false },
+        { "text": "risk management", "correct": false },
+        { "text": "configuration management", "correct": false }
+      ]
+    },
+    {
+      "question": "A network administrator is reviewing server alerts because of reports of network slowness. The administrator confirms that an alert was an actual security incident. What is the security alert classification of this type of scenario?",
+      "type": "single",
+      "choices": [
+        { "text": "false negative", "correct": false },
+        { "text": "true positive", "correct": true },
+        { "text": "true negative", "correct": false },
+        { "text": "false positive", "correct": false }
+      ]
+    },
+    {
+      "question": "Which application layer protocol is used to provide file-sharing and print services to Microsoft applications?",
+      "type": "single",
+      "choices": [
+        { "text": "SMTP", "correct": false },
+        { "text": "HTTP", "correct": false },
+        { "text": "SMB", "correct": true },
+        { "text": "DHCP", "correct": false }
+      ]
+    },
+    {
+      "question": "Which device in a layered defense-in-depth approach denies connections initiated from untrusted networks to internal networks, but allows internal users within an organization to connect to untrusted networks?",
+      "type": "single",
+      "choices": [
+        { "text": "access layer switch", "correct": false },
+        { "text": "firewall", "correct": true },
+        { "text": "internal router", "correct": false },
+        { "text": "IPS", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two potential network problems that can result from ARP operation? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Large numbers of ARP request broadcasts could cause the host MAC address table to overflow and prevent the host from communicating on the network.", "correct": false },
+        { "text": "On large networks with low bandwidth, multiple ARP broadcasts could cause data communication delays.", "correct": true },
+        { "text": "Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent of intercepting network traffic.", "correct": true },
+        { "text": "Multiple ARP replies result in the switch MAC address table containing entries that match the MAC addresses of hosts that are connected to the relevant switch port.", "correct": false },
+        { "text": "Manually configuring static ARP associations could facilitate ARP poisoning or MAC address spoofing.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three procedures in Sguil are provided to security analysts to address alerts? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Escalate an uncertain alert.", "correct": true },
+        { "text": "Delete the alert from the system.", "correct": false },
+        { "text": "Categorize the alert as a true positive.", "correct": true },
+        { "text": "Expire false positives.", "correct": true },
+        { "text": "Change the alert ID manually.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two services are provided by the NetFlow tool? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "QoS configuration", "correct": false },
+        { "text": "usage-based network billing", "correct": true },
+        { "text": "log analysis", "correct": false },
+        { "text": "access list monitoring", "correct": false },
+        { "text": "network monitoring", "correct": true }
+      ]
+    },
+    {
+      "question": "An administrator discovers that a user is accessing a newly established website that may be detrimental to company security. What action should the administrator take first in terms of the security policy?",
+      "type": "single",
+      "choices": [
+        { "text": "Ask the user to stop immediately and inform the user that this constitutes grounds for dismissal.", "correct": false },
+        { "text": "Create a firewall rule blocking the respective website.", "correct": false },
+        { "text": "Revise the AUP immediately and get all users to sign the updated AUP.", "correct": false },
+        { "text": "Immediately suspend the network privileges of the user.", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two tasks can be performed by a local DNS server? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "allowing data transfer between two network devices", "correct": false },
+        { "text": "retrieving email messages", "correct": false },
+        { "text": "providing IP addresses to local hosts", "correct": true },
+        { "text": "forwarding name resolution requests between servers", "correct": true },
+        { "text": "mapping name-to-IP addresses for internal hosts", "correct": true }
+      ]
+    },
+    {
+      "question": "Which type of event is logged in Cisco Next-Generation IPS devices (NGIPS) using FirePOWER Services when changes have been detected in the monitored network?",
+      "type": "single",
+      "choices": [
+        { "text": "intrusion", "correct": false },
+        { "text": "connection", "correct": false },
+        { "text": "host or endpoint", "correct": false },
+        { "text": "network discovery", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two actions should be taken during the preparation phase of the incident response life cycle defined by NIST? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Acquire and deploy the tools that are needed to investigate incidents.", "correct": true },
+        { "text": "Detect all the incidents that occurred.", "correct": false },
+        { "text": "Meet with all involved parties to discuss the incident that took place.", "correct": false },
+        { "text": "Create and train the CSIRT.", "correct": true },
+        { "text": "Fully analyze the incident.", "correct": false }
+      ]
+    },
+    {
+      "question": "What subnet mask is represented by the slash notation /20?",
+      "type": "single",
+      "choices": [
+        { "text": "255.255.255.0", "correct": false },
+        { "text": "255.255.255.248", "correct": false },
+        { "text": "255.255.255.192", "correct": false },
+        { "text": "255.255.240.0", "correct": true },
+        { "text": "255.255.224.0", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the benefit of converting log file data into a common schema?",
+      "type": "single",
+      "choices": [
+        { "text": "creates a data model based on fields of data from a source", "correct": false },
+        { "text": "creates a set of regex-based field extractions", "correct": false },
+        { "text": "allows the implementation of partial normalization and inspection", "correct": false },
+        { "text": "allows easy processing and analysis of datasets", "correct": true }
+      ]
+    },
+    {
+      "question": "Which Cisco sponsored certification is designed to provide the first step in acquiring the knowledge and skills to work with a SOC team?",
+      "type": "single",
+      "choices": [
+        { "text": "CCNA CyberOps Associate", "correct": true },
+        { "text": "CCNA Cloud", "correct": false },
+        { "text": "CCNA Security", "correct": false },
+        { "text": "CCNA Data Center", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three IP addresses are considered private addresses? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "198.168.6.18", "correct": false },
+        { "text": "192.168.5.29", "correct": true },
+        { "text": "172.68.83.35", "correct": false },
+        { "text": "128.37.255.6", "correct": false },
+        { "text": "172.17.254.4", "correct": true },
+        { "text": "10.234.2.1", "correct": true }
+      ]
+    },
+    {
+      "question": "When establishing a network profile for an organization, which element describes the time between the establishment of a data flow and its termination?",
+      "type": "single",
+      "choices": [
+        { "text": "bandwidth of the Internet connection", "correct": false },
+        { "text": "routing protocol convergence", "correct": false },
+        { "text": "session duration", "correct": true },
+        { "text": "total throughput", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two properties of a cryptographic hash function? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Complex inputs will produce complex hashes.", "correct": false },
+        { "text": "The output is a fixed length.", "correct": true },
+        { "text": "The hash function is one way and irreversible.", "correct": true },
+        { "text": "Hash functions can be duplicated for authentication purposes.", "correct": false },
+        { "text": "The input for a particular hash algorithm has to have a fixed size.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which type of evidence cannot prove an IT security fact on its own?",
+      "type": "single",
+      "choices": [
+        { "text": "hearsay", "correct": false },
+        { "text": "corroborative", "correct": false },
+        { "text": "best", "correct": false },
+        { "text": "indirect", "correct": true }
+      ]
+    },
+    {
+      "question": "What is a characteristic of a probabilistic analysis in an alert evaluation?",
+      "type": "single",
+      "choices": [
+        { "text": "each event an inevitable result of antecedent causes", "correct": false },
+        { "text": "precise methods that yield the same result every time", "correct": false },
+        { "text": "by relying on predefined conditions", "correct": false },
+        { "text": "random variables that create difficulty in knowing the outcome of any given event with certainty", "correct": true }
+      ]
+    },
+    {
+      "question": "Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?",
+      "type": "single",
+      "choices": [
+        { "text": "It is easier to use than other server operating systems.", "correct": false },
+        { "text": "It can be acquired at no charge.", "correct": true },
+        { "text": "More network applications are created for this environment.", "correct": false },
+        { "text": "The administrator has control over specific security functions, but not standard applications.", "correct": false }
+      ]
+    },
+    {
+      "question": "A technician needs to verify file permissions on a specific Linux file. Which command would the technician use?",
+      "type": "single",
+      "choices": [
+        { "text": "cd", "correct": false },
+        { "text": "sudo", "correct": false },
+        { "text": "ls -l", "correct": true },
+        { "text": "vi", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two protocols may devices use in the application process that sends email? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "HTTP", "correct": false },
+        { "text": "POP", "correct": false },
+        { "text": "POP3", "correct": true },
+        { "text": "DNS", "correct": true },
+        { "text": "IMAP", "correct": false },
+        { "text": "SMTP", "correct": true }
+      ]
+    },
+    {
+      "question": "Which file system type was specifically created for optical disk media?",
+      "type": "single",
+      "choices": [
+        { "text": "ext3", "correct": false },
+        { "text": "HFS+", "correct": false },
+        { "text": "CDFS", "correct": true },
+        { "text": "ext2", "correct": false }
+      ]
+    },
+    {
+      "question": "A piece of malware has gained access to a workstation and issued a DNS lookup query to a CnC server. What is the purpose of this attack?",
+      "type": "single",
+      "choices": [
+        { "text": "to check the domain name of the workstation", "correct": false },
+        { "text": "to send stolen sensitive data with encoding", "correct": true },
+        { "text": "to masquerade the IP address of the workstation", "correct": false },
+        { "text": "to request a change of the IP address", "correct": false }
+      ]
+    },
+    {
+      "question": "Refer to the exhibit. Which field in the Sguil event window indicates the number of times an event is detected for the same source and destination IP address?",
+      "type": "single",
+      "img": "/images/CyberOps-qfinal-png.webp",
+      "choices": [
+        { "text": "CNT", "correct": true },
+        { "text": "Pr", "correct": false },
+        { "text": "ST", "correct": false },
+        { "text": "AlertID", "correct": false }
+      ]
+    },
+    {
+      "question": "Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
+      "type": "single",
+      "img": "/images/167_2022-06-28_112341.jpg",
+      "choices": [
+        { "text": "R1: G0/0", "correct": true },
+        { "text": "R2: S0/0/0", "correct": false },
+        { "text": "R2: S0/0/1", "correct": false },
+        { "text": "R1: S0/0/0", "correct": false }
+      ]
+    },
+    {
+      "question": "According to information outlined by the Cyber Kill Chain, which two approaches can help identify reconnaissance threats? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Analyze web log alerts and historical search data.", "correct": true },
+        { "text": "Audit endpoints to forensically determine origin of exploit.", "correct": false },
+        { "text": "Build playbooks for detecting browser behavior.", "correct": true },
+        { "text": "Conduct full malware analysis.", "correct": false },
+        { "text": "Understand targeted servers, people, and data available to attack.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which two ICMPv6 messages are used during the Ethernet MAC address resolution process?",
+      "type": "multiple",
+      "choices": [
+        { "text": "router solicitation", "correct": false },
+        { "text": "router advertisement", "correct": false },
+        { "text": "neighbor solicitation", "correct": true },
+        { "text": "neighbor advertisement", "correct": true },
+        { "text": "echo request", "correct": false }
+      ]
+    },
+    {
+      "question": "What best describes the destination IPv4 address that is used by multicasting?",
+      "type": "single",
+      "choices": [
+        { "text": "a single IP multicast address that is used by all destinations in a group", "correct": true },
+        { "text": "an IP address that is unique for each destination in the group", "correct": false },
+        { "text": "a group address that shares the last 23 bits with the source IPv4 address", "correct": false },
+        { "text": "a 48 bit address that is determined by the number of members in the multicast group", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the result of using security devices that include HTTPS decryption and inspection services?",
+      "type": "single",
+      "choices": [
+        { "text": "The devices require continuous monitoring and fine tuning.", "correct": false },
+        { "text": "The devices introduce processing delays and privacy issues.", "correct": true },
+        { "text": "The devices must have preconfigured usernames and passwords for all users.", "correct": false },
+        { "text": "Monthly service contracts with reputable web filtering sites can be costly.", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a disadvantage of DDNS?",
+      "type": "single",
+      "choices": [
+        { "text": "DDNS is considered malignant and must be monitored by security software.", "correct": false },
+        { "text": "DDNS is unable to co-exist on a network subdomain that also uses DNS.", "correct": false },
+        { "text": "Using free DDNS services, threat actors can quickly and easily generate subdomains and change DNS records.", "correct": true },
+        { "text": "Using DDNS, a change in an existing IP address mapping can take over 24 hours and could result in a disruption of connectivity.", "correct": false }
+      ]
+    },
+    {
+      "question": "A threat actor has identified the potential vulnerability of the web server of an organization and is building an attack. What will the threat actor possibly do to build an attack weapon?",
+      "type": "single",
+      "choices": [
+        { "text": "Obtain an automated tool in order to deliver the malware payload through the vulnerability.", "correct": true },
+        { "text": "Install a webshell on the web server for persistent access.", "correct": false },
+        { "text": "Create a point of persistence by adding services.", "correct": false },
+        { "text": "Collect credentials of the web server developers and administrators.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which tool included in the Security Onion is a series of software plugins that send different types of data to the Elasticsearch data stores?",
+      "type": "single",
+      "choices": [
+        { "text": "OSSEC", "correct": false },
+        { "text": "Curator", "correct": false },
+        { "text": "Beats", "correct": true },
+        { "text": "ElastAlert", "correct": false }
+      ]
+    },
+    {
+      "question": "Which term is used to describe the process of identifying the NSM-related data to be gathered?",
+      "type": "single",
+      "choices": [
+        { "text": "data archiving", "correct": false },
+        { "text": "data normalization", "correct": false },
+        { "text": "data reduction", "correct": false },
+        { "text": "data retention", "correct": true }
+      ]
+    },
+    {
+      "question": "According to NIST, which step in the digital forensics process involves preparing and presenting information that resulted from scrutinizing data?",
+      "type": "single",
+      "choices": [
+        { "text": "examination", "correct": false },
+        { "text": "collection", "correct": false },
+        { "text": "reporting", "correct": true },
+        { "text": "analysis", "correct": false }
+      ]
+    },
+    {
+      "question": "A cybersecurity analyst is using Sguil to verify security alerts. How is the current view sorted?",
+      "type": "single",
+      "img": "/images/2021-04-16_150303.jpg",
+      "choices": [
+        { "text": "by sensor number", "correct": false },
+        { "text": "by source IP", "correct": false },
+        { "text": "by date/time", "correct": false },
+        { "text": "by frequency", "correct": true }
+      ]
+    },
+    {
+      "question": "Which two options are window managers for Linux? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "File Explorer", "correct": false },
+        { "text": "Kali", "correct": false },
+        { "text": "Gnome", "correct": true },
+        { "text": "PenTesting", "correct": false },
+        { "text": "KDE", "correct": true }
+      ]
+    },
+    {
+      "question": "What are the two methods that a wireless NIC can use to discover an AP? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "transmitting a probe request", "correct": true },
+        { "text": "sending an ARP request broadcast", "correct": false },
+        { "text": "initiating a three-way handshake", "correct": false },
+        { "text": "receiving a broadcast beacon frame", "correct": true },
+        { "text": "sending a multicast frame", "correct": false }
+      ]
+    },
+    {
+      "question": "A client device has initiated a secure HTTP request to a web browser. Which well-known port address number is associated with the destination address?",
+      "type": "single",
+      "choices": [
+        { "text": "110", "correct": false },
+        { "text": "80", "correct": false },
+        { "text": "443", "correct": true },
+        { "text": "404", "correct": false }
+      ]
+    },
+    {
+      "question": "Which term describes evidence that is in its original state?",
+      "type": "single",
+      "choices": [
+        { "text": "Corroborating evidence", "correct": false },
+        { "text": "Best evidence", "correct": true },
+        { "text": "Indirect evidence", "correct": false },
+        { "text": "Direct evidence", "correct": false }
+      ]
+    },
+    {
+      "question": "Which three statements describe a DHCP Discover message? (Choose three.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).", "correct": true },
+        { "text": "The destination IP address is 255.255.255.255.", "correct": true },
+        { "text": "The message comes from a server offering an IP address.", "correct": false },
+        { "text": "The message comes from a client seeking an IP address.", "correct": true },
+        { "text": "All hosts receive the message, but only a DHCP server replies.", "correct": false },
+        { "text": "Only the DHCP server receives the message.", "correct": false }
+      ]
+    },
+    {
+      "question": "Which step in the Vulnerability Management Life Cycle categorizes assets into groups or business units, and assigns a business value to asset groups based on their criticality to business operations?",
+      "type": "single",
+      "choices": [
+        { "text": "remediate", "correct": false },
+        { "text": "prioritize assets", "correct": true },
+        { "text": "report", "correct": false },
+        { "text": "assess", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two functions that are provided by the network layer? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "directing data packets to destination hosts on other networks", "correct": true },
+        { "text": "placing data on the network medium", "correct": false },
+        { "text": "carrying data between processes that are running on source and destination hosts", "correct": false },
+        { "text": "providing dedicated end-to-end connections", "correct": false },
+        { "text": "providing end devices with a unique network identifier", "correct": true }
+      ]
+    },
+    {
+      "question": "What type of attack targets an SQL database using the input field of a user?",
+      "type": "single",
+      "choices": [
+        { "text": "XML injection", "correct": false },
+        { "text": "buffer overflow", "correct": false },
+        { "text": "Cross-site scripting", "correct": false },
+        { "text": "SQL injection", "correct": true }
+      ]
+    },
+    {
+      "question": "What are two characteristics of Ethernet MAC addresses? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "MAC addresses use a flexible hierarchical structure.", "correct": false },
+        { "text": "They are expressed as 12 hexadecimal digits.", "correct": true },
+        { "text": "They are globally unique.", "correct": true },
+        { "text": "They are routable on the Internet.", "correct": false },
+        { "text": "MAC addresses must be unique for both Ethernet and serial interfaces on a device.", "correct": false }
+      ]
+    },
+    {
+      "question": "A user calls to report that a PC cannot access the internet. The network technician asks the user to issue the command ping 127.0.0.1 in a command prompt window. The user reports that the result is four positive replies. What conclusion can be drawn based on this connectivity test?",
+      "type": "single",
+      "choices": [
+        { "text": "The IP address obtained from the DHCP server is correct.", "correct": false },
+        { "text": "The PC can access the network. The problem exists beyond the local network.", "correct": false },
+        { "text": "The PC can access the Internet. However, the web browser may not work.", "correct": false },
+        { "text": "The TCP/IP implementation is functional.", "correct": true }
+      ]
+    },
+    {
+      "question": "What characterizes a threat actor?",
+      "type": "single",
+      "choices": [
+        { "text": "They are all highly-skilled individuals.", "correct": false },
+        { "text": "They always use advanced tools to launch attacks.", "correct": false },
+        { "text": "They always try to cause some harm to an individual or organization.", "correct": true },
+        { "text": "They all belong to organized crime.", "correct": false }
+      ]
+    },
+    {
+      "question": "A computer is presenting a user with a screen requesting payment before the user data is allowed to be accessed by the same user. What type of malware is this?",
+      "type": "single",
+      "choices": [
+        { "text": "a type of logic bomb", "correct": false },
+        { "text": "a type of virus", "correct": false },
+        { "text": "a type of worm", "correct": false },
+        { "text": "a type of ransomware", "correct": true }
+      ]
+    },
+    {
+      "question": "Which ICMPv6 message type provides network addressing information to hosts that use SLAAC?",
+      "type": "single",
+      "choices": [
+        { "text": "router solicitation", "correct": false },
+        { "text": "neighbor advertisement", "correct": false },
+        { "text": "neighbor solicitation", "correct": false },
+        { "text": "router advertisement", "correct": true }
+      ]
+    },
+    {
+      "question": "A company has a file server that shares a folder named Public. The network security policy specifies that the Public folder is assigned Read-Only rights to anyone who can log into the server while the Edit rights are assigned only to the network admin group. Which component is addressed in the AAA network service framework?",
+      "type": "single",
+      "choices": [
+        { "text": "automation", "correct": false },
+        { "text": "authentication", "correct": false },
+        { "text": "authorization", "correct": true },
+        { "text": "accounting", "correct": false }
+      ]
+    },
+    {
+      "question": "An administrator is trying to troubleshoot connectivity between PC1 and PC2 and uses the tracert command from PC1 to do it. Based on the displayed output, where should the administrator begin troubleshooting?",
+      "type": "single",
+      "img": "/images/questa.jpg",
+      "choices": [
+        { "text": "R1", "correct": false },
+        { "text": "PC2", "correct": false },
+        { "text": "SW2", "correct": false },
+        { "text": "R2", "correct": true },
+        { "text": "SW1", "correct": false }
+      ]
+    },
+    {
+      "question": "What are the stages that a wireless device completes before it can communicate over a wireless LAN network?",
+      "type": "single",
+      "choices": [
+        { "text": "discover a wireless AP, authenticate with the AP, associate with the AP", "correct": true },
+        { "text": "discover a wireless AP, associate with the AP, authorize with the AP", "correct": false },
+        { "text": "discover a wireless AP, associate with the AP, authenticate with the AP", "correct": false },
+        { "text": "discover a wireless AP, authorize with the AP, associate with the AP", "correct": false }
+      ]
+    },
+    {
+      "question": "What are two properties of a cryptographic hash function? (Choose two.)",
+      "type": "multiple",
+      "choices": [
+        { "text": "Complex inputs will produce complex hashes.", "correct": false },
+        { "text": "The output is a fixed length.", "correct": true },
+        { "text": "The hash function is one way and irreversible.", "correct": true },
+        { "text": "Hash functions can be duplicated for authentication purposes.", "correct": false },
+        { "text": "The input for a particular hash algorithm has to have a fixed size.", "correct": false }
+      ]
+    },
+    {
+      "question": "The switches have a default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for the default gateway. Which network devices will receive the ARP request sent by host A?",
+      "type": "single",
+      "img": "/images/i360201v3n1_275353-1608482322.6606.png",
+      "choices": [
+        { "text": "only host D", "correct": false },
+        { "text": "only hosts A, B, C, and D", "correct": false },
+        { "text": "only hosts B and C", "correct": false },
+        { "text": "only hosts B, C, and router R1", "correct": true },
+        { "text": "only hosts A, B, and C", "correct": false },
+        { "text": "only router R1", "correct": false }
+      ]
+    },
+    {
+      "question": "Match the Security Onion tool with the description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Snort",
+          "definition": "network-based intrusion detection system"
+        },
+        {
+          "term": "OSSEC",
+          "definition": "host-based intrusion detection system"
+        },
+        {
+          "term": "Sguil",
+          "definition": "high-level cybersecurity analysis console"
+        },
+        {
+          "term": "Wireshark",
+          "definition": "packet capture application"
+        }
+      ]
+    },
+    {
+      "question": "Match the term with the correct server definition.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "user accounts",
+          "definition": "the parameters defining user access and behavior"
+        },
+        {
+          "term": "listening ports",
+          "definition": "the TCP and UDP daemons and ports that are allowed to be open on the server"
+        },
+        {
+          "term": "software environment",
+          "definition": "the tasks, processes, and applications that are permitted to run on the server"
+        },
+        {
+          "term": "service accounts",
+          "definition": "the definitions of the type of service that an application is allowed to run on a given host"
+        }
+      ]
+    },
+    {
+      "question": "Match the tool with its network function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "NetFlow",
+          "definition": "provides statistics on packets flowing through a Cisco router or multilayer switch"
+        },
+        {
+          "term": "Wireshark",
+          "definition": "captures packets and saves them in a PCAP file"
+        },
+        {
+          "term": "SNMP",
+          "definition": "retrieves information on the operation of network devices"
+        },
+        {
+          "term": "SIEM",
+          "definition": "presents real-time reporting and long-term analysis of security events"
+        }
+      ]
+    },
+    {
+      "question": "Match the tool to its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "RainbowCrack",
+          "definition": "used for password cracking by removing the original password or discovering it"
+        },
+        {
+          "term": "Yersinia",
+          "definition": "a packet crafting tool used to test firewall robustness"
+        },
+        {
+          "term": "Nmap",
+          "definition": "a network scanning tool used to probe network devices, servers, and ports"
+        }
+      ]
+    },
+    {
+      "question": "Match the policy type with its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "acceptable use policy (AUP)",
+          "definition": "identifies network applications and uses that are acceptable to the organization"
+        },
+        {
+          "term": "identification and authentication policy",
+          "definition": "specifies authorized persons and identity verification procedures"
+        },
+        {
+          "term": "network maintenance policy",
+          "definition": "specifies network device operating systems and update procedures"
+        },
+        {
+          "term": "remote access policy",
+          "definition": "identifies how remote users can access a network and what is accessible"
+        }
+      ]
+    },
+    {
+      "question": "Match the cyber attack method to its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "ARP cache poisoning",
+          "definition": "attacker sends falsified information to redirect users to malicious sites"
+        },
+        {
+          "term": "amplification and reflection",
+          "definition": "attacker uses open resolvers to increase the volume of attacks and mask the source"
+        },
+        {
+          "term": "resource utilization attack",
+          "definition": "attacker sends multiple packets that consume server resources"
+        }
+      ]
+    },
+    {
+      "question": "Match the role with its cybersecurity responsibility.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "human resources",
+          "definition": "performs disciplinary measures"
+        },
+        {
+          "term": "information assurance",
+          "definition": "changes firewall rules"
+        },
+        {
+          "term": "IT support",
+          "definition": "preserves attack evidence"
+        },
+        {
+          "term": "management",
+          "definition": "designs the budget"
+        },
+        {
+          "term": "legal department",
+          "definition": "reviews policies for guideline violations"
+        }
+      ]
+    },
+    {
+      "question": "Match the security organization with its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "SANS",
+          "definition": "maintains and supports the Internet Storm Center and develops security courses"
+        },
+        {
+          "term": "MITRE",
+          "definition": "maintains a list of common vulnerabilities and exposures (CVE)"
+        },
+        {
+          "term": "FIRST",
+          "definition": "fosters cooperation and coordination in incident prevention and response"
+        }
+      ]
+    },
+    {
+      "question": "Match the TCP session termination step to the correct action.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Step 1",
+          "definition": "Host A sends a FIN to server B"
+        },
+        {
+          "term": "Step 2",
+          "definition": "Server B sends an ACK to host A"
+        },
+        {
+          "term": "Step 3",
+          "definition": "Server B sends a FIN to host A"
+        },
+        {
+          "term": "Step 4",
+          "definition": "Host A sends an ACK to server B"
+        }
+      ]
+    },
+    {
+      "question": "Match the Windows Registry key with its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "HKEY_USERS",
+          "definition": "all of the configuration settings for the hardware and software configured on the computer for all users"
+        },
+        {
+          "term": "HKEY_CLASSES_ROOT",
+          "definition": "settings about the file system, file associations, shortcuts, etc."
+        },
+        {
+          "term": "HKEY_CURRENT_USER",
+          "definition": "preferences of the currently logged on user"
+        },
+        {
+          "term": "HKEY_CURRENT_CONFIG",
+          "definition": "information about the current hardware profile of the machine"
+        }
+      ]
+    },
+    {
+      "question": "Match the network tool with its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "NetFlow",
+          "definition": "Provides statistics on IP packets flowing through network devices"
+        },
+        {
+          "term": "syslog",
+          "definition": "Notifies the administrator with detailed system messages"
+        },
+        {
+          "term": "SNMP",
+          "definition": "Allows administrators to manage network nodes"
+        },
+        {
+          "term": "NTP",
+          "definition": "Synchronizes the time across all devices on the network"
+        }
+      ]
+    },
+    {
+      "question": "Match the attack surface with attack exploits.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Software Attack Surface",
+          "definition": "These attacks are delivered through exploitation of vulnerabilities in web, cloud, or host-based software applications"
+        },
+        {
+          "term": "Network Attack Surface",
+          "definition": "These attacks include conventional wired and wireless network protocols, targeting vulnerabilities at the transport layer"
+        },
+        {
+          "term": "Human Attack Surface",
+          "definition": "These attacks include social engineering, malicious behaviour by trusted insiders, and user error"
+        }
+      ]
+    },
+    {
+      "question": "Match the Linux tool to its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "TCP Wrappers",
+          "definition": "Rule-based access control and logging system for Linux packet filtering"
+        },
+        {
+          "term": "iptables",
+          "definition": "Allows Linux admins to configure network access rules using Netfilter modules"
+        },
+        {
+          "term": "nftables",
+          "definition": "Uses a virtual machine in the kernel for inspecting and processing network packets"
+        }
+      ]
+    },
+    {
+      "question": "Match the routing type to its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "local route interface",
+          "definition": "Found only in routers running IOS 15+ or IPv6 routing"
+        },
+        {
+          "term": "directly connected interface",
+          "definition": "Automatically added when an interface is configured and active"
+        },
+        {
+          "term": "dynamic route",
+          "definition": "Added when a protocol such as OSPF or EIGRP discovers a route"
+        },
+        {
+          "term": "static route",
+          "definition": "Manually configured by a network administrator"
+        }
+      ]
+    },
+    {
+      "question": "Match the data type to its network description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "transaction data",
+          "definition": "Includes device-specific server and host logs"
+        },
+        {
+          "term": "alert data",
+          "definition": "Generated by IPS or IDS devices when suspicious traffic is detected"
+        },
+        {
+          "term": "statistical data",
+          "definition": "Used to describe and analyze network flow or performance data"
+        },
+        {
+          "term": "session data",
+          "definition": "Contains details of network flows, including 5-tuples, data transmitted, and duration"
+        }
+      ]
+    },
+    {
+      "question": "Match each cyber kill chain step with its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Step 1",
+          "definition": "reconnaissance"
+        },
+        {
+          "term": "Step 2",
+          "definition": "weaponization"
+        },
+        {
+          "term": "Step 3",
+          "definition": "delivery"
+        },
+        {
+          "term": "Step 4",
+          "definition": "exploitation"
+        },
+        {
+          "term": "Step 5",
+          "definition": "installation"
+        },
+        {
+          "term": "Step 6",
+          "definition": "command and control"
+        },
+        {
+          "term": "Step 7",
+          "definition": "action on objectives"
+        }
+      ]
+    },
+    {
+      "question": "Match the attack type with its description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "MiTM",
+          "definition": "Threat actors monitor, capture, and control communication between a source and a destination"
+        },
+        {
+          "term": "sniffer attack",
+          "definition": "Uses a device or software to monitor and capture network data exchanges"
+        },
+        {
+          "term": "DoS",
+          "definition": "Overloads systems to crash applications or network services"
+        }
+      ]
+    },
+    {
+      "question": "Match the Sguil field to its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "cid",
+          "definition": "The unique event number from the sensor"
+        },
+        {
+          "term": "sid",
+          "definition": "The unique ID of the sensor"
+        },
+        {
+          "term": "status",
+          "definition": "The Sguil classification assigned to this event"
+        },
+        {
+          "term": "ip_proto",
+          "definition": "IP protocol type of the packet"
+        },
+        {
+          "term": "signature",
+          "definition": "The human readable name of the event"
+        },
+        {
+          "term": "timestamp",
+          "definition": "The time the event occurred on the sensor"
+        }
+      ]
+    },
+    {
+      "question": "Match the SIEM function to the description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "aggregation",
+          "definition": "Reduces the volume of event data by consolidating duplicate event records"
+        },
+        {
+          "term": "reporting",
+          "definition": "Presents event data in real-time monitoring and long-time summaries"
+        },
+        {
+          "term": "correlation",
+          "definition": "Speeds detection of and reaction to security threats by examining logs from different systems"
+        },
+        {
+          "term": "forensic analysis",
+          "definition": "Searches logs and events for complete information analysis"
+        }
+      ]
+    },
+    {
+      "question": "Match the system utility function with the appropriate task.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Performance",
+          "definition": "Displays resource utilization information for CPU, memory, network, disk, and others"
+        },
+        {
+          "term": "Startup",
+          "definition": "Allows programs that are running on system startup to be disabled"
+        },
+        {
+          "term": "Services",
+          "definition": "Allows for a start, stop or restart of a particular service"
+        },
+        {
+          "term": "Details",
+          "definition": "Allows for a process to have its affinity set"
+        }
+      ]
+    },
+    {
+      "question": "Match the protocol with its network function or security concern.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "NTP",
+          "definition": "Uses a hierarchy of authoritative time sources to send time information between devices on the network"
+        },
+        {
+          "term": "DNS",
+          "definition": "Used by attackers to exfiltrate data in traffic disguised as normal client queries"
+        },
+        {
+          "term": "Syslog",
+          "definition": "Uses UDP port 514 for logging event messages from network devices and endpoints"
+        },
+        {
+          "term": "ICMP",
+          "definition": "Used by attackers to identify hosts on a network and the structure of the network"
+        }
+      ]
+    },
+    {
+      "question": "Match the metric with its definition.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "MTTD",
+          "definition": "The average time that it takes for the SOC personnel to identify that valid security incidents have occurred in the network"
+        },
+        {
+          "term": "MTTC",
+          "definition": "The time required to stop the incident from causing further damage to systems or data"
+        },
+        {
+          "term": "MTTR",
+          "definition": "The average time that it takes to stop and remediate a security incident"
+        }
+      ]
+    },
+    {
+      "question": "Match the step in the malware delivery process to its activity.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "Step 1",
+          "definition": "The website is compromised."
+        },
+        {
+          "term": "Step 2",
+          "definition": "HTTP 302 cushioning is used."
+        },
+        {
+          "term": "Step 3",
+          "definition": "Domain shadowing is used."
+        },
+        {
+          "term": "Step 4",
+          "definition": "An exploit kit landing page is created."
+        },
+        {
+          "term": "Step 5",
+          "definition": "Malware is spread through the payload."
+        }
+      ]
+    },
+    {
+      "question": "Match the network-based antimalware solution to the function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "web security appliance",
+          "definition": "Provides filtering of websites and blacklisting before they reach the endpoint"
+        },
+        {
+          "term": "email security appliance",
+          "definition": "Provides filtering of SPAM and potentially malicious emails before they reach the endpoint"
+        },
+        {
+          "term": "network admission control",
+          "definition": "Permits only authorized and compliant systems to connect to the network"
+        },
+        {
+          "term": "advanced malware protection",
+          "definition": "Provides endpoint protection from viruses and malware"
+        }
+      ]
+    },
+    {
+      "question": "Match the alert classification with the description.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "false positive",
+          "definition": "Normal traffic is incorrectly identified as a threat"
+        },
+        {
+          "term": "false negative",
+          "definition": "Malicious traffic is not identified as a threat"
+        },
+        {
+          "term": "true positive",
+          "definition": "Malicious traffic is correctly identified as a threat"
+        },
+        {
+          "term": "true negative",
+          "definition": "Normal traffic is not identified as a threat"
+        }
+      ]
+    },
+    {
+      "question": "Match the TCP termination step to the correct event.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "step 1",
+          "definition": "client sends FIN"
+        },
+        {
+          "term": "step 2",
+          "definition": "server sends ACK"
+        },
+        {
+          "term": "step 3",
+          "definition": "server sends FIN"
+        },
+        {
+          "term": "step 4",
+          "definition": "client sends ACK"
+        }
+      ]
+    },
+    {
+      "question": "Match the attack vector with the origin method.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "email",
+          "definition": "Initiated through an email attachment"
+        },
+        {
+          "term": "media",
+          "definition": "Initiated from external storage"
+        },
+        {
+          "term": "attrition",
+          "definition": "Uses brute force against devices or services"
+        },
+        {
+          "term": "web",
+          "definition": "Initiated from a website application"
+        }
+      ]
+    },
+    {
+      "question": "Match the category with its security focus.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "configuration management",
+          "definition": "The implementation of systems that track the location and configuration of networked devices and software"
+        },
+        {
+          "term": "vulnerability management",
+          "definition": "The security practice designed to proactively prevent the exploitation of IT vulnerabilities"
+        },
+        {
+          "term": "risk management",
+          "definition": "The comprehensive analysis of impacts of attacks on core company assets and functioning"
+        },
+        {
+          "term": "asset management",
+          "definition": "The inventory and control of hardware and software configurations of systems"
+        }
+      ]
+    },
+    {
+      "question": "Match the incident response phase with the activity.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "preparation",
+          "definition": "Conduct CSIRT response training"
+        },
+        {
+          "term": "detection and analysis",
+          "definition": "Identify, analyze, and validate an incident"
+        },
+        {
+          "term": "containment, eradication, and recovery",
+          "definition": "Implement procedures to contain the threat"
+        },
+        {
+          "term": "post-incident activities",
+          "definition": "Document incident handling"
+        }
+      ]
+    },
+    {
+      "question": "Match the Linux command with its function.",
+      "type": "match",
+      "pairs": [
+        {
+          "term": "cd",
+          "definition": "Changes the current directory"
+        },
+        {
+          "term": "rm",
+          "definition": "Removes files"
+        },
+        {
+          "term": "mkdir",
+          "definition": "Creates a directory under the current directory"
+        },
+        {
+          "term": "ls",
+          "definition": "Displays the files inside a directory"
+        },
+        {
+          "term": "man",
+          "definition": "Displays the documentation for a specific command"
+        }
+      ]
+    },
+    {
+      "question": "Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, match the NAT address type with the correct IP address.",
+      "type": "match",
+      "img": "/images/i249830v1n1_212288-1.webp",
+      "pairs": [
+        {
+          "term": "Outside global",
+          "definition": "203.0.113.5"
+        },
+        {
+          "term": "Inside global",
+          "definition": "192.0.2.1"
+        },
+        {
+          "term": "Inside local",
+          "definition": "10.130.5.76"
+        }
+      ]
+    }
+  ]
