@@ -5,7 +5,22 @@ import { Label } from "../components/ui/label";
 import questions from "@/data/questions_database.json";
 
 function shuffle(array) {
-  return array.sort(() => Math.random() - 0.5);
+  const arr = [...array];
+  const rand = new Uint32Array(arr.length);
+  crypto.getRandomValues(rand);
+
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = rand[i] % (i + 1);
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+
+  if (arr.every((v, k) => v === array[k]) && arr.length > 1) {
+    [arr[arr.length - 1], arr[arr.length - 2]] = [
+      arr[arr.length - 2],
+      arr[arr.length - 1],
+    ];
+  }
+  return arr;
 }
 
 function UnifiedQuiz() {
@@ -13,26 +28,26 @@ function UnifiedQuiz() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [responses, setResponses] = useState({});
   const [showAnswersMap, setShowAnswersMap] = useState({});
-  const [highlightCorrect, setHighlightCorrect] = useState(true);
+  const [highlightCorrect] = useState(true);
   const [jumpTo, setJumpTo] = useState('');
   const [matchOptionsMap, setMatchOptionsMap] = useState({});
 
   useEffect(() => {
-    const indexedQuestions = questions.map((q, i) => ({ ...q, id: `q-${i}` }));
-  
-    const shuffledQuestions = shuffle(indexedQuestions);
+    const indexed = questions.map((q, i) => ({ ...q, id: `q-${i}` }));
+
+    const shuffledQuestions = shuffle(indexed);
+
     const matchOpts = {};
-    const randomizedQuestions = shuffledQuestions.map(q => {
-      if (q.type === 'match') {
-        const defs = q.pairs.map(p => p.definition);
-        matchOpts[q.id] = shuffle([...defs]);
+    const randomized = shuffledQuestions.map(q => {
+      if (q.type === "match") {
+        matchOpts[q.id] = shuffle(q.pairs.map(p => p.definition));
       } else if (q.choices) {
-        q = { ...q, choices: shuffle([...q.choices]) };
+        q = { ...q, choices: shuffle(q.choices) };
       }
       return q;
     });
-  
-    setQuestionSet(randomizedQuestions);
+
+    setQuestionSet(randomized);
     setMatchOptionsMap(matchOpts);
   }, []);
 
